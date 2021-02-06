@@ -33,7 +33,7 @@ def speak(audio):
 
 def wishMe():
 
-    speak(" starting all system and application ....... All system have been started , i am jarvis 0.2 version. your artifical intelligence ")  
+    speak(" starting all system and application ....... All system have been started , i am eva 0.2 version. your artifical intelligence ")  
     
     hour = int(datetime.datetime.now().hour) 
     if hour>= 0 and hour<12: 
@@ -183,7 +183,7 @@ if __name__ == "__main__":
              os.startfile(Telegrampath) 
 
         #elif "camera" in query or "take a photo" in query: 
-           # ec.capture(0, "Jarvis Camera ", "img.jpg")     
+           # ec.capture(0, "eva Camera ", "img.jpg")     
 
           
         elif "tell me the time" in query or "what is the time"  in query: 
@@ -191,34 +191,34 @@ if __name__ == "__main__":
              continue
           
         # this will exit and terminate the program 
-        elif "bye" in query or "jarvis bye" in query or " talk u later " in query or "offline" in query: 
+        elif "bye" in query or "eva bye" in query or " talk u later " in query or "offline" in query: 
              speak("Bye  !  sir ") 
              exit()
 
 
         elif "tell me your name" in query: 
-             speak("I am Jarvis. Your deskstop Assistant") 
+             speak("I am eva. Your deskstop Assistant") 
 
 
         elif "who made you" in query or "who create you" in query or "who is your father" in query:
              speak("in short i call him KR, DO YOU WANT TO KNOW, how is? FIND YOUR SELF! ha ha ha  !!!")
 
-        elif "hello jarvis" in query or "hello" in query or "namaste" in query or "hye" in query or "hii" in query :
+        elif "hello eva" in query or "hello" in query or "namaste" in query or "hye" in query or "hii" in query :
              speak("hello sir !")
              print("kunal sir")
 
         
 
-        elif "good moring jarvis" in query or " good morning" in query :
+        elif "good moring eva" in query or " good morning" in query :
              speak ("good morning sir !")
 
-        elif "good evening jarvis" in query or "good evening" in query:
+        elif "good evening eva" in query or "good evening" in query:
              speak("good evening sir !")
 
-        elif " good afternoon jarvis" in query or " good afternoon" in query:
+        elif " good afternoon eva" in query or " good afternoon" in query:
              speak (" good afternoon sir !") 
 
-        elif "good night jarvis" in query or "good night" in query:
+        elif "good night eva" in query or "good night" in query:
              speak("good night sir , have a good sleep dude !")
              exit()
 
