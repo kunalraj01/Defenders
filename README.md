@@ -80,8 +80,8 @@ def sendEmail(to, content):
      server = smtplib.SMTP('smtp.gmail.com', 587)
      server.ehlo()
      server.starttls()
-     server.login('kunalworkshop0106@gmail.com','***************')
-     server.sendmail('kunalworkshop0106@gmail.com', to, content)
+     server.login('*************@gmail.com','***************')
+     server.sendmail('************@gmail.com', to, content)
      server.close()
 
 
@@ -119,22 +119,6 @@ if __name__ == "__main__":
              speak("Here you go to Google\n") 
              webbrowser.open("google.com") 
         
-       
-
-        elif 'open D '  in query:
-             Dpath = " D:\\ "
-             os.startfile(Dpath)
-
-        elif 'open E ' in query :
-             Epath = ' E:\\'
-             os.startfile(Epath) 
-
-        elif 'open C ' in query :
-             Cpath = 'C:\\'
-             os.startfile(Cpath)    
-
-       
-
 
         elif 'play music' in query or "play song" in query: 
              speak("Here you go with songs") 
@@ -243,6 +227,10 @@ if __name__ == "__main__":
 
         elif "open qr scanner" in query:
             # starting the webcam using opencv 
+            
+            
+            
+            
 cap = cv2.VideoCapture(0)
 
 fob=open('attendence.txt','w+')
